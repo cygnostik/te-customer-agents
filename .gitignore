@@ -1,0 +1,21 @@
+# Private credentials, state and generated vendor material must not ship.
+.env
+.env.*
+!.env.example
+private/
+credentials/
+profiles/
+*.token
+*.pem
+*.key
+*.log
+*.zip
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+**/scripts/assets/openapi.json
+**/scripts/assets/*candidate*
+**/scripts/evidence/
+**/references/local-access.md

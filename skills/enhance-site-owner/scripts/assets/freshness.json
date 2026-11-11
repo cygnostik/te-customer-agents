@@ -1,0 +1,8 @@
+{
+  "retrieved_date": "2026-09-10",
+  "schema_version": "12.26.3",
+  "source": "Enhance official OpenAPI YAML, schema version 12.26.3; retrieved 2026-11-11; live compatibility review pending",
+  "review_interval_days": 30,
+  "update_policy": "Advisory only. Review a separately fetched candidate with schema-diff; never overwrite active schema automatically.",
+  "candidate_retrieved_date": "2026-11-11"
+}
