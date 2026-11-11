@@ -1,12 +1,10 @@
 # Security and authorization boundaries
 
-## Customer scope only
+## Your API key
 
-This library is for a customer's authorized websites and, when explicitly intended, that customer's organisation. It is not a hosting-provider administration kit. No provider infrastructure, root access, package/billing administration, other-customer discovery or broad-credential fallback is authorized.
+These tools require an Enhance API key for your customer account. Use your own customer key to connect; Enhance determines which websites and account features that key can access.
 
-The public CLI profile loader accepts only `site` and `organisation`. It rejects `admin`, unknown and missing scopes before constructing a profile. The reusable Python internals retain upstream synthetic test machinery; they are not a protected execution boundary. A process running as the customer can edit code, read accessible files or call the API another way. **Never provide a broad token and rely on this CLI, a prompt or a website allowlist to contain it.**
-
-Enhance must enforce the credential's actual authority. A `SiteAccess` role, selected website ID, local 403, mocked response or 404 does not prove server-side isolation. Provider validation must exercise the required allowed and denied scope using the actual customer principal and authorized non-sensitive test targets.
+Your key's permissions are set in Enhance. A website selected in the local configuration does not restrict the key itself. If you need access limited to a particular website, ask TrustEdge.gt to confirm that the key has the right permissions.
 
 ## Secrets and private outputs
 
