@@ -10,17 +10,15 @@ You can also use the skill in the repository directory without installing it. Th
 
 ## GitHub installation
 
-For a GitHub-hosted copy, substitute the repository's actual owner for `OWNER`:
-
 ```sh
-hermes skills tap add OWNER/te-customer-agents
-hermes skills inspect OWNER/te-customer-agents/skills/enhance-site-owner
-hermes skills install OWNER/te-customer-agents/skills/enhance-site-owner
+hermes skills tap add cygnostik/te-customer-agents
+hermes skills inspect cygnostik/te-customer-agents/skills/enhance-site-owner
+hermes skills install cygnostik/te-customer-agents/skills/enhance-site-owner
 ```
 
 Inspect the identifier and scanner findings first. Adding a tap does not install a skill. After installation, verify the actual location and complete set of support files. Do not use a direct raw SKILL.md URL: support-file behavior differs by source adapter and runtime revision. A scanner result is not an endorsement or proof of server-side authorization.
 
-The complete skill bundle has been tested through the Hermes GitHub adapter using synthetic local transport and a disposable Hermes home. A public-network install and live customer access have not been verified. GitHub adapter fallback behavior and older Hermes versions may differ; verify the installed files before account use.
+The complete skill bundle has been tested through a public-network Hermes install into a disposable Hermes home. Live customer access and server-side permission boundaries have not been verified by that test. Older Hermes versions may differ; verify the installed files before account use.
 
 ## References
 
