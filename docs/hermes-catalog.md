@@ -1,5 +1,7 @@
 # Install the skill in Hermes
 
+Installing the skill does not connect it to your account. To use it with your hosting account, you will need your customer API key; Enhance controls what that key can access.
+
 This is a third-party skill, not a Hermes plugin, MCP server or official catalog listing. Review the complete skill and [security guidance](security.md) before installing it. Customer use requires permission or terms from TrustEdge.gt.
 
 ## Manual installation

@@ -16,9 +16,9 @@ You'll need Python 3.9 or later and access to your hosting account. The one-time
 
 ## Your account and permissions
 
-Use a credential issued for your own customer account. Don't give an agent a provider, administrator or reseller credential. Keep credentials out of chat, command arguments and website folders.
+These tools use the Enhance API key for your customer account. Enhance controls which websites and features your key can access. Keep your key out of chat, command arguments and website folders.
 
-An agent's local website filter does not restrict what a credential can access on the server. Ask your provider to confirm the credential's actual permissions. The agent should ask before making changes and check the result afterward.
+Selecting a website in the local configuration does not change your key's permissions. If you need access limited to a particular site, ask TrustEdge.gt to confirm your key's permissions.
 
 ## Files in this repository
 

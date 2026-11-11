@@ -24,7 +24,7 @@ Use a Python environment with PyYAML already available for the one-time conversi
 
 ## 3. Configure private customer access
 
-Follow [first installation](../skills/enhance-site-owner/references/first-install.md) and [permissions](../skills/enhance-site-owner/references/permissions.md). Copy the site or organisation template to a private directory outside this repository, the installed skill and all served web directories. Replace the explicit placeholders with provider-approved values; do not guess IDs or use administrator credentials.
+These tools require the Enhance API key for your customer account. Follow [first installation](../skills/enhance-site-owner/references/first-install.md) and [permissions](../skills/enhance-site-owner/references/permissions.md). Copy the site or organisation template to a private directory outside this repository, the installed skill and all served web directories. Fill in your account details using the information supplied by TrustEdge.gt.
 
 - Use a site profile for an additional exact-website local guard.
 - Use an organisation profile only if access to that customer's permitted organisation-wide resources is intended.
